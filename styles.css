@@ -1,6 +1,6 @@
 * {
 	font-family: 'Roboto', sans-serif;
-	margin:0;
+	margin: 0;
 	padding: 0;
 }
 
@@ -8,6 +8,7 @@
 	display: flex;
 	flex-direction: column;
 }
+
 
 .header {
 	display: flex;
@@ -42,6 +43,7 @@
 	text-decoration: none;
 	margin: 16px;
 }
+
 
 .hero {
 	display: flex;
@@ -90,7 +92,8 @@
 
 }
 
-.information{
+
+.information {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -100,7 +103,7 @@
 	margin-right: 300px;
 }
 
-.information .title{
+.information .title {
 	font-size: 36px;
 	font-weight: bolder;
 	color: #1F2937;
@@ -108,25 +111,27 @@
 	margin-bottom: 36px;
 
 }
-.information .infoimages{
+
+.information .infoimages {
 	display: flex;
 	flex-wrap: wrap;
 	flex: 1;
-	gap:56px;
+	gap: 56px;
 }
 
-.information .block img{
+.information .block img {
 	width: 250px;
 	height: 310px;
 	border-radius: 20px;
 }
 
-.information .block p{
+.information .block p {
 	width: 250px;
 	text-align: center;
 }
 
-.quote{
+
+.quote {
 	display: flex;
 	flex: 1;
 	flex-direction: column;
@@ -134,7 +139,7 @@
 	padding: 200px 300px;
 }
 
-.quote #body{
+.quote #body {
 	font-size: 36px;
 	font-weight: 300;
 	font-style: italic;
@@ -142,19 +147,64 @@
 	width: 800px;
 	align-self: center;
 }
-.quote #name{
+
+.quote #name {
 	margin-left: 200px;
-	align-self:center;
+	align-self: center;
 	font-weight: bolder;
 }
 
-.action{
-	display: flex;
 
+.action {
+	display: flex;
 	align-items: center;
 	justify-content: center;
+	padding: 200px;
 }
 
-.banner{
-	background-color: #3882f6 ;
+.banner {
+	padding: 50px 125px;
+	background-color: #3882f6;
+	display: flex;
+	gap: 10px;
+	border-radius: 20px;
+}
+
+.banner .text {
+	text-align: justify;
+}
+
+.banner .text #title {
+	color: #E5E7EB;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.banner .text #subtitle {
+	color: lightgray;
+	font-size: 12px;
+}
+
+.banner .button {
+	background-color: #3882F6;
+	border: 1px solid white;
+	border-radius: 6px;
+	color: #E5E7EB;
+	font-weight: bolder;
+	padding: 5px 15px;
+	width: 100px;
+	margin-top: 8px;
+	margin-left: 25px;
+}
+
+
+.footer {
+	background-color: #1F2937;
+	padding: 36px;
+}
+
+.footer p {
+	font-size: 18px;
+	color: #E5E7EB;
+	text-align: center;
 }
