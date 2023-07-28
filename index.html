@@ -6,14 +6,20 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Landing Page</title>
 	<link rel="stylesheet" href="styles.css" />
-</head>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" </head>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet" <body>
 
-<body>
+	<!--This is the container and it contains (hehe) all the other elements-->
 	<div class="container">
 
+		<!--This is the header that contains a "logo" and three links-->
 		<div class="header">
-			<img class="headerlogo" src="./images/logo.png" />
-			<div class="headerlinks">
+			<img class="logo" src="./images/logo.png" />
+			<div class="links">
 				<ul>
 					<li><a href="https://www.youtube.com/watch?v=ndsaoMFz9J4">Meow</a></li>
 					<li><a href="https://www.youtube.com/watch?v=QH2-TGUlwu4">Meow Meow</a></li>
@@ -22,6 +28,7 @@
 			</div>
 		</div>
 
+		<!--This is the "hero" class, it's no more than the first section of the page. It has a "left" and "right" subclasses that contains the elements at left and right.-->
 		<div class="hero">
 			<div class="left">
 				<div class="title">Do you like cats?!</div>
@@ -34,6 +41,7 @@
 			</div>
 		</div>
 
+		<!--This is the "information" class, it's the second section of the page-->
 		<div class="information">
 			<div class="title">There are (kinda) four types of cats.</div>
 			<div class="infoimages">
@@ -55,7 +63,25 @@
 				</div>
 			</div>
 		</div>
+
+		<!--This is the "quote" class, it's the third section of the page-->
+		<div class="quote">
+			<p id="body">I hate Mondays. I really really reeeeeeally hate Mondays. And I hate you too.</p>
+			<p id="name">-An anonymous orange cat</p>
+		</div>
+
+		<div class="action">
+			<div class="banner">
+				<div class="text">
+					<p id="title">CLICK IF YOU WANT TO BE A CAT!</p>
+					<p id="text">This is not a magic button, we won't be responsible if you (probably) DON'T turn into a cat.
+					</p>
+				</div>
+				<button class="button">Sign up</button>
+			</div>
+		</div>
 	</div>
-</body>
+	</div>
+	</body>
 
 </html>

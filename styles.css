@@ -1,5 +1,7 @@
 * {
 	font-family: 'Roboto', sans-serif;
+	margin:0;
+	padding: 0;
 }
 
 .container {
@@ -9,34 +11,32 @@
 
 .header {
 	display: flex;
-	flex: 1;
 	background-color: #1F2937;
-	align-items: center;
 	padding: 0 200px;
+	align-items: center;
 }
 
-.headerlogo {
-	flex: 1;
+.header .logo {
 	font-size: 24px;
 	font-weight: bolder;
 	color: #F9FAF8;
-	overflow-clip-margin: content-box;
-	overflow: clip;
-	max-width: 15%;
-	max-height: 15%;
+	width: 10%;
+	height: auto;
+	margin: 16px;
 }
 
-.headerlinks {
+.header .links {
 	margin-left: auto;
+	padding-top: 16px;
 
 }
 
-.headerlinks ul {
+.header .links ul {
 	list-style: none;
 	display: flex;
 }
 
-.headerlinks a {
+.header .links a {
 	font-size: 18px;
 	color: #E5E7EB;
 	text-decoration: none;
@@ -93,6 +93,11 @@
 .information{
 	display: flex;
 	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 100px 200px;
+	margin-left: 300px;
+	margin-right: 300px;
 }
 
 .information .title{
@@ -100,13 +105,56 @@
 	font-weight: bolder;
 	color: #1F2937;
 	text-align: center;
+	margin-bottom: 36px;
 
 }
 .information .infoimages{
 	display: flex;
+	flex-wrap: wrap;
+	flex: 1;
+	gap:56px;
 }
 
 .information .block img{
-	width: 230px;
-	height: 260px;
+	width: 250px;
+	height: 310px;
+	border-radius: 20px;
+}
+
+.information .block p{
+	width: 250px;
+	text-align: center;
+}
+
+.quote{
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	background-color: #E5E7EB;
+	padding: 200px 300px;
+}
+
+.quote #body{
+	font-size: 36px;
+	font-weight: 300;
+	font-style: italic;
+	color: #1F2937;
+	width: 800px;
+	align-self: center;
+}
+.quote #name{
+	margin-left: 200px;
+	align-self:center;
+	font-weight: bolder;
+}
+
+.action{
+	display: flex;
+
+	align-items: center;
+	justify-content: center;
+}
+
+.banner{
+	background-color: #3882f6 ;
 }
